@@ -30,3 +30,6 @@ seems that the rack plugin setup in my config.ru loads the .sass and compile it 
 
 ## other assets? (fonts/images/js)
 All are in `public` directory. Didn't figure out how to serve them from app folder yet.
+
+## how it should look like (if running successfully)
+![screenshot](screenshot-2022-03-16.png)

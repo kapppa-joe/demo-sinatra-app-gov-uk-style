@@ -1,8 +1,9 @@
-# Demo sinatra app with GOVUK style
+# Demo sinatra app with GOV.UK style
 
-A skeleton folder of a sinatra app with some GOVUK styling
+A skeleton folder of a sinatra app with some [GOV.UK styling](https://frontend.design-system.service.gov.uk/). Started as a practice of how to incorporate the GOV.UK styles into a webapp.
 
-## How to start
+
+## How to run
 ```shell
 npm install
 bundle install

@@ -14,3 +14,5 @@ gem "rack", "~> 2.2"
 gem "rspec", "~> 3.11"
 
 gem "rspec_junit_formatter", "~> 0.5.1"
+
+gem "puma", "~> 5.6"

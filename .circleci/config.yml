@@ -2,6 +2,7 @@ version: 2.1
 orbs:
   ruby: circleci/ruby@1.4.0
   heroku: circleci/heroku@1.2.6
+  node: circleci/node@5.0.1
 
 jobs:
   build_and_test:
@@ -9,6 +10,7 @@ jobs:
       - image: cimg/ruby:2.7.5-node
     steps:
       - checkout
+      - node/install-packages
       - ruby/install-deps
       - ruby/rspec-test
 

@@ -10,6 +10,10 @@ class App < Sinatra::Base
     erb :start
   end
 
+  get '/confirmation' do
+    erb :confirmation
+  end
+
   get '/main.css' do
     sass :main
   end

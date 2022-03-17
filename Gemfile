@@ -12,3 +12,5 @@ gem "compass", "~> 0.12.2"
 gem "rack", "~> 2.2"
 
 gem "rspec", "~> 3.11"
+
+gem "rspec_junit_formatter", "~> 0.5.1"
